@@ -19,7 +19,7 @@ export class ProductPageComponent implements OnInit {
   products!: Product[];
 
   ngOnInit(): void {
-    this.products = this.productService.getlist();
+    this.productService.getlist().subscribe((products) => (this.products = products));
   }
 
   onAdd(): void {
