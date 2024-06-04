@@ -15,7 +15,7 @@
       "price": 10000
     },
     {
-      "name": "書籍Z",
+      "name": "書籍B",
       "authors": [
         "作者甲",
         "作者乙",
@@ -27,6 +27,20 @@
       "createDate": "2024-05-22T16:02:48.929Z",
       "price": 10000,
       "id": 2
+    },
+    {
+      "name": "書籍C",
+      "authors": [
+        "作者甲",
+        "作者乙",
+        "作者丙"
+      ],
+      "company": "碩博文化",
+      "isShow": true,
+      "imgUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
+      "createDate": "2024-05-22T16:02:48.929Z",
+      "price": 10000,
+      "id": 3
     }
   ]
 }
