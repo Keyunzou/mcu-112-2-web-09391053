@@ -4,8 +4,8 @@ import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
 import { BehaviorSubject, Subject, combineLatest, startWith, switchMap, tap } from 'rxjs';
 import { Product } from '../model/product';
+import { ProductService } from '../services/product.service';
 import { ProductCardListComponent } from './../product-card-list/product-card-list.component';
-import { ProductService } from './../servies/product.service';
 
 @Component({
   selector: 'app-product-page',

@@ -5,7 +5,7 @@ import { ActivatedRoute, Data, Router } from '@angular/router';
 import { filter, map, tap } from 'rxjs';
 import { IProductForm } from '../interface/product-form.interface';
 import { Product } from '../model/product';
-import { ProductService } from '../servies/product.service';
+import { ProductService } from '../services/product.service';
 
 @Component({
   selector: 'app-product-form-page',
